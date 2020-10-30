@@ -1,6 +1,7 @@
 ## Automategit
 
-  Automategit is a Python library which automates Github.
+Automategit is a python library to create, delete and clone GitHub repositories through command line. 
+Seperate py files for specific task (as mentioned below) work under the hood to perform appropriate actions. Note that user authentication must be done as shown below to link the user's GitHub account. 
 
 #### This python library ```automategit``` contains the following features:
 - Check the user's login credentials.
@@ -37,7 +38,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--url',help="Enter the url")
-parser.add_argument('--path',help="enter path where you want to download or clone repository.")
+parser.add_argument('--path',help="Enter path where you want to download or clone repository.")
 args=parser.parse_args()
 url = args.url
 path = args.path
