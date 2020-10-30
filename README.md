@@ -139,7 +139,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--owner',help="Enter your username")
 parser.add_argument('--repo',help="Enter the name of repository you want to delete")
-parser.add_argument('--reponame',help="Enter the name of repository you want to create at that place of deleted repository")
+parser.add_argument('--reponame',help="Enter the name of repository you want to create at the place of deleted repository")
 args = parser.parse_args()
 owner = args.owner
 repo = args.repo
